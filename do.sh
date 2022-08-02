@@ -10,5 +10,6 @@ do
       echo "Number is an even number!!"
       continue
    fi
-   echo "Found odd number"
+   echo $NUM
+   echo " Found odd number"
 done
