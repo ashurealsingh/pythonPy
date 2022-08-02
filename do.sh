@@ -7,7 +7,8 @@ do
    Q=`expr $NUM % 2`
    if [ $Q -eq 0 ]
    then
-      echo "Number is an even number!!"
+      echo $NUM
+      echo " Number is an even number!!"
       continue
    fi
    echo "Found odd number"
